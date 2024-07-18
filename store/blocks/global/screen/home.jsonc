@@ -1,11 +1,9 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#global__main"
-      // "flex-layout.row#text__one--home"
+      "flex-layout.row#text__one--home",
+      "list-context.image-list#demo",
+       "slider-layout#text-test"
     ]
-  },
-  "flex-layout.row#global__main":{
-    "children": ["rich-text#prueba"]
   }
 }
