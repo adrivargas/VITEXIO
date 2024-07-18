@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#text__one--home":{
+        "title": "Text ro one home",
+        "children":[
+            "flex-layout.col#text__one--home",
+            "flex-layout.col#text__two--home"
+
+        ],
+        "props":{}
+    },
+    "flex-layout.col#text__one--home":{
+        "title": "Text col one home",
+        "children":[
+            "rich-text#prueba"
+        ]
+    },
+    "flex-layout.col#text__two--home":{
+        "title": "Text col one home",
+        "children":[
+            "rich-text#prueba"
+        ]
+    },
+    "rich-text#prueba": { 
+        "props": { 
+          "text": "Hola Mundo",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "t-heading-1"
+        }
+    }
+}
