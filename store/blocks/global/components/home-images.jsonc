@@ -1,88 +1,94 @@
 {
 	"flex-layout.row#main-images-container": {
-			"title": "Image container",
-			"children": [
-					"flex-layout.col#first-image",
-					"flex-layout.col#second-image",
-					"flex-layout.col#third-image"
-			]
+		"title": "Image container",
+		"children": [
+			"flex-layout.col#first-image",
+			"flex-layout.col#second-image",
+			"flex-layout.col#third-image"
+		]
 	},
 
 	"flex-layout.col#first-image": {
-			"children": [
-					"image#example1"
-			]
+		"children": [
+			"image#font"
+		]
 	},
 
 	"flex-layout.col#second-image": {
-			"children": [
-					"flex-layout.row#product-banner-title",
-					"flex-layout.row#product-banner-second",
-					"flex-layout.row#product-banner-third"
-			]
+		"children": [
+			"flex-layout.row#product-banner-title",
+			"flex-layout.row#product-banner-second",
+			"flex-layout.row#product-banner-third"
+		]
 	},
 
 	"flex-layout.col#third-image": {
-			"children": [
-					"image#example2"
-			]
+		"children": [
+			"image#example2"
+		]
 	},
 
 	"flex-layout.row#product-banner-title": {
-			"children": [
-					"rich-text#product-title"
-			]
+		"children": [
+			"rich-text#product-title"
+		]
 	},
 
 	"flex-layout.row#product-banner-second": {
-			"children": [
-					"rich-text#second-level"
-			]
+		"children": [
+			"rich-text#second-level"
+		]
 	},
 
 	"flex-layout.row#product-banner-third": {
-			"children": [
-					"rich-text#third-level"
-			]
+		"children": [
+			"rich-text#third-level"
+		]
 	},
 
 	"rich-text#product-title": {
-			"props": {
-					"text": "iWATCH",
-					"textAlignment": "CENTER",
-					"textPosition": "CENTER",
-					"font": "t-heading-3"
-			}
+		"props": {
+			"text": "iWATCH",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-heading-3"
+		}
 	},
 
 	"rich-text#second-level": {
-			"props": {
-					"text": "ULTRA 2",
-					"textAlignment": "CENTER",
-					"textPosition": "CENTER",
-					"font": "t-body",
-					"textColor": "#FF8324"
-			}
+		"props": {
+			"text": "ULTRA 2",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-body",
+			"textColor": "#FF8324"
+		}
 	},
 
 	"rich-text#third-level": {
-			"props": {
-					"text": "An amazing product.",
-					"textAlignment": "CENTER",
-					"textPosition": "CENTER",
-					"font": "t-body"
-			}
+		"props": {
+			"text": "An amazing product.",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"font": "t-body"
+		}
 	},
 
-	"image#example1": {
-			"props": {
-					"src": "/arquivos/home_desktop.png"
-			}
+	"image#font": {
+		"props": {
+			"images": [
+                {
+                    "image": "/assets/img/mainDesktop.png",
+                    "description": "Main banner image",
+                    "link": {"url": "#"}
+                }
+            ]
+		}
 	},
 
 	"image#example2": {
-			"props": {
-					"src": ""
-			}
+		"props": {
+			"src": ""
+		}
 	}
 }
