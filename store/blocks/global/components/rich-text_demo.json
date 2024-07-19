@@ -1,166 +1,43 @@
 {
-    "flex-layout.row#text__one--home":{
+    "flex-layout.row#text__one--home": {
         "title": "Text ro one home",
-        "children":[
+        "children": [
             "flex-layout.col#text__one--home",
-            "flex-layout.col#text__two--home",
-            "flex-layout.col#text__three--home"
+            "flex-layout.col#text__two--home"
         ],
-        "props":{}
+        "props": {}
+
     },
-    "flex-layout.col#text__one--home":{
+    "flex-layout.col#text__one--home": {
         "title": "Text col one home",
-        "children":[
-            "rich-text#1"
+        "children": [
+            "rich-text"
         ],
-        "props":{
-            "width":"80%",
-            "blockClass":[
+        "props": {
+            "blockClass": [
                 "col__one--text"
             ]
         }
+
     },
-    "flex-layout.col#text__two--home":{
-        "title": "Text col one home",
-        "children":[
-            "rich-text#2"
+    "flex-layout.col#text__two--home": {
+        "title": "Text col two home",
+        "children": [
+            "rich-text"
         ],
-        "props":{
-            "width":"25%",
-            "blockClass":[
-                "col__two--text"
+        "props": {
+            "blockClass": [
+                "col__one--two"
             ]
         }
-    },"flex-layout.col#text__three--home":{
-        "title": "Text col one home",
-        "children":[
-            "rich-text#3"
-        ],
-        "props":{
-            "width":"25%",
-            "blockClass":[
-                "col__three--text"
-            ]
-        }
-    },"flex-layout.col#text__four--home":{
-        "title": "Text col one home",
-        "children":[
-            "rich-text#4"
-        ],
-        "props":{
-            "width":"25%",
-            "blockClass":[
-                "col__four--text"
-            ]
-        }
-    },"flex-layout.col#text__five--home":{
-        "title": "Text col one home",
-        "children":[
-            "rich-text#5"
-        ],
-        "props":{
-            "width":"10%",
-            "blockClass":[
-                "col__five--text"
-            ]
-        }
-    },"flex-layout.col#text__six--home":{
-        "title": "Text col one home",
-        "children":[
-            "rich-text#6"
-        ],
-        "props":{
-            "width":"10%",
-            "blockClass":[
-                "col__six--text"
-            ]
-        }
-    },"flex-layout.col#text__seven--home":{
-        "title": "Text col one home",
-        "children":[
-            "rich-text#7"
-        ],
-        "props":{
-            "width":"10%",
-            "blockClass":[
-                "col__seven--text"
-            ]
-        }
+
     },
-    "flex-layout.col#text__eight--home":{
-        "title": "Text col one home",
-        "children":[
-            "rich-text#8"
-        ],
-        "props":{
-            "width":"10%",
-            "blockClass":[
-                "col__eight--text"
-            ]
-        }
-    },
-    "rich-text#1": { 
+    "rich-text": { 
         "props": { 
-          "text": "Sweet & Coffee",
+          "text": "Hola ",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
           "font": "t-heading-1"
         }
-    },
-    "rich-text#2": { 
-        "props": { 
-          "text": "NOSOTROS",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-    },
-    "rich-text#3": { 
-        "props": { 
-          "text": "PROCESOS",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-    },
-    "rich-text#4": { 
-        "props": { 
-          "text": "MENÚ",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-    },
-    "rich-text#5": { 
-        "props": { 
-          "text": "LOCALES",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-    },
-    "rich-text#6": { 
-        "props": { 
-          "text": "COMPROMISO",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-    },
-    "rich-text#7": { 
-        "props": { 
-          "text": "TALENTO",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-    },
-    "rich-text#8": { 
-        "props": { 
-          "text": "PEDIDOS EN LÍNEA",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-    }
+      }
 }

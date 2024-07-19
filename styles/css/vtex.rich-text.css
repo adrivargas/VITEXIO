@@ -1,0 +1,7 @@
+.link--slider_third-row--button::after {
+    content: url("/arquivos/arrow-button.svg");
+}
+
+.link--slider_third-row--button{
+    background-color: blue;
+}

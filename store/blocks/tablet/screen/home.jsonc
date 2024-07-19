@@ -1,0 +1,9 @@
+{
+    "responsive-layout.tablet#home__section": {
+        "title": "Home section tablet",
+        "children": [
+            "flex-layout.row#tablet__home-section"
+        ]
+
+    }
+}

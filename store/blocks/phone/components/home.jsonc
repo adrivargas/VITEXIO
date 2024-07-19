@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#phone_home-section": {
+        "title": "phone row with text",
+        "children": [
+            "list-context.image-list#phone__main-banner"
+        ]
+    },
+
+    "list-context.image-list#phone__main-banner": {
+        "props": {
+            "images": [
+                {
+                    "image": "/arquivos/phone-banner.png",
+                    "description": "Main banner image",
+                    "link": {"url": "#"}
+                }
+            ]
+        },
+
+        "children": [
+            "slider-layout#phone__main-banner-slider"
+        ]
+    },
+
+    "slider-layout#phone__main-banner-slider": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            }
+        }
+    }
+}
