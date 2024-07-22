@@ -78,7 +78,7 @@
 		"props": {
 			"images": [
                 {
-                    "image": "/assets/img/mainDesktop.png",
+					"image": "/arquivos/mainDesktop.png",
                     "description": "Main banner image",
                     "link": {"url": "#"}
                 }
