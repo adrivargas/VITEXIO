@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#global__third--slider": {
+        "title": "desktop row with text",
+        "children": [
+            "slider-layout#third__slider"
+        ]
+    },
+    "slider-layout#third__slider": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            }
+        },
+        "children": [
+            "rich-text#slider__third-row-button",
+            "flex-layout.col#third__row-image"
+        ]
+    },
+//     "flex-layout.col#first__slider--container": {
+//         "children": [
+//             "flex-layout.row#slider__first-row"
+//         ]
+//     },
+//     "flex-layout.row#slider__first-row": {
+//         "children": [
+//             "image#first__image"
+//         ]
+//     },
+//     "image#first__image": {
+//         "props": {
+//             "src": "/arquivos/pc.png"
+//         }
+//     },
+//     "flex-layout.row#slider__second-row": {
+//         "children": [
+//             "flex-layout.col#third__row-text",
+//             "flex-layout.col#third__row-image"
+//         ],
+//         "props": {
+//             "preserveLayoutOnMobile": true,
+//             "preseveLayoutOnDesktop":true
+//         }
+//     },
+//     "flex-layout.col#third__row-text": {
+//         "children": [
+//             "rich-text#third__row-title"
+//         ]
+
+//     },
+//     "rich-text#third__row-title":{
+//         "props": {
+//             "text": "Descripción del producto en hasta tres líneas de texto explicativo"
+//         }
+//     },
+    "flex-layout.col#third__row-image": {
+        "children": [
+            "image#second__image-product"
+        ]
+    },
+   "image#second__image-product": {
+        "props": {
+            "src": "/arquivos/pc.png"
+        }
+    },
+//     "flex-layout.row#slider__third-row": {
+//         "children": [
+//             "rich-text#slider__third-row-button"
+//         ]
+//     },
+    "rich-text#slider__third-row-button": {
+        "props": {
+            "text": "Comprar",
+            "blockClass":"slider__third-row-button"
+        }
+    }       
+}
