@@ -5,3 +5,6 @@
 .link--slider_third-row--button{
     background-color: blue;
 }
+.logoImage_vtex-render-runtime-8-x-lazyload_lazyloaded{
+    content: url("/arquivos/cerveza.png");
+}
