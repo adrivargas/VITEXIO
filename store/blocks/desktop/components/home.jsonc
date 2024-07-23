@@ -2,7 +2,8 @@
     "flex-layout.row#home-section": {
         "title": "Desktop row with text",
         "children": [
-            "rich-text#section--1"
+            "rich-text#section--1",
+            "slider-layout#home_desktop"
         ]
     },
 
@@ -24,5 +25,8 @@
       "props": {
         "src": "arquivos/home_image.png"
       }
+    },
+    "slider-layout#home_desktop": {
+        "title": "Slider layout"
     }
 }
