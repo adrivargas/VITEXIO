@@ -50,7 +50,8 @@
         ],
 
         "props": {
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "preseveLayoutOnDesktop":true
         }
     },
 
@@ -90,7 +91,7 @@
     "rich-text#slider__third-row--button": {
         "props": {
             "text": "[Ver precio](https:)",
-            "blockClass": "slider_third-row--button"
+            "blockClass": "slider__third-row--button"
         }
     }
 }
