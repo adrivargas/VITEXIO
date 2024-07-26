@@ -1,5 +1,8 @@
 {
     "flex-layout.row#global__second--slider": {
+        "props":{
+            "blockClass": "second-slider"
+        },
         "children": [
             "slider-layout#second__slider"
         ]
@@ -7,6 +10,7 @@
 
     "slider-layout#second__slider": {
         "props": {
+            "blockClass": "slider-card",
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 3,
@@ -17,11 +21,21 @@
             "flex-layout.col#second__slider--container",
             "flex-layout.col#second__slider--container",
             "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
             "flex-layout.col#second__slider--container"
         ]
     },
 
     "flex-layout.col#second__slider--container": {
+        "props": {
+            "blockClass": "slider-card__container"
+        },
         "children": [
             "flex-layout.row#slider__first-row",
             "flex-layout.row#slider__second-row",
@@ -30,6 +44,9 @@
     },
 
     "flex-layout.row#slider__first-row": {
+        "props": {
+            "blockClass": "image-info_card"
+        },
         "children": [
             "image#first__row-image"
         ]
@@ -51,7 +68,7 @@
 
         "props": {
             "preserveLayoutOnMobile": true,
-            "preseveLayoutOnDesktop":true
+            "colSizing": "auto"
         }
     },
 
@@ -63,6 +80,7 @@
 
     "rich-text#second__row-title": {
         "props": {
+            "blockClass":"info__card",
             "text": "# Heading\n Builder platform is made by, buildership platform is made by..."
 
         }
@@ -70,6 +88,9 @@
 
 
     "flex-layout.col#second__row-image": {
+        "props": {
+            "blockClass": "image-best_seller__card"
+        },
         "children": [
             "image#second__row-best-seller"
         ]
@@ -77,12 +98,16 @@
 
     "image#second__row-best-seller": {
       "props": {
-        "src": "/arquivos/bestseller-image.png"
+        "src": "/arquivos/bestseller-image.png",
+        "blockClass":"img__best"
         
       }
     },
 
     "flex-layout.row#slider__third-row": {
+        "props": {
+            "blockClass": "button__card-info"
+        },
         "children": [
             "rich-text#slider__third-row--button"
         ]
