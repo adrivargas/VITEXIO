@@ -1,5 +1,8 @@
 {
-//   "slider-layout#text-test": {
+// se cambia con fulWidth: false
+// en el slider
+// fullWidth perdón 
+// "slider-layout#text-test": {
 //     "title":"Slider home images full",    
 //     "props": {
 //       "itemsPerPage": {
