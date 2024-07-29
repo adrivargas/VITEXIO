@@ -1,5 +1,5 @@
-/* @font-face {
-    font-family: 'MyHelvetica';
-    src: url(assets/fonts/MyHelvetica.woff2), url(assets/fonts/MyHelvetica.ttf);
-    font-weight: bold;
-  } */
+@font-face {
+  font-family: 'Lexend';
+  src: url(/assets/fonts/Lexend-VariableFont_wght.woff2), url(/assets/fonts/Lexend.ttf);
+  font-weight: bold;
+}

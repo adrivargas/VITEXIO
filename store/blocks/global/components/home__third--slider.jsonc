@@ -1,78 +1,108 @@
 {
-    "flex-layout.row#global__third--slider": {
-        "title": "desktop row with text",
+    "flex-layout.row#global__product--list": {
+        "title": "Global_container_products",
+        "props": {
+            "blockClass": "row__container__summary1"
+        },
         "children": [
-            "slider-layout#third__slider"
+            "list-context.product-list#demo1"
         ]
     },
-    "slider-layout#third__slider": {
+    "product-summary.shelf#demo1": {
+        "title": "Estructur to slider products summary",
+        "children": [
+            "flex-layout.col#first__col--officon",
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ]
+    },
+
+    "list-context.product-list#demo1": {
+        "title": "Container list to products",
+        "blocks": [
+            "product-summary.shelf#demo1"
+        ],
+        "children": [
+            "slider-layout#global__slider--products"
+        ],
+        "props": {
+            "blockClass": "list__container__slider2"
+        }
+    },
+
+    "slider-layout#global__slider--products": {
+        "title": "Estructure slider to products summary",
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 3,
                 "phone": 1
-            }
+            },
+            "blockClass": [
+                "custom_product__slider1"
+            ]
+        }
+    },
+
+    "product-summary-image": {
+        "title": "Image to product summary",
+        "props": {
+            "showBadge": true,
+            "height": 200,
+            "blockClass": [
+                "custom_image__slider2"
+            ]
+        }
+        
+    },
+
+    "flex-layout.col#first__col--officon": {
+        "title": "Container percent off and like",
+        "children": [
+            "flex-layout.row#first__row--officon"
+        ]
+    },
+
+    "flex-layout.row#first__row--officon": {
+        "title": "Container row to percent off and like",
+        "props": {
+            "blockClass": "container__offlike--row3"
         },
         "children": [
-            "rich-text#slider__third-row-button",
-            "flex-layout.col#third__row-image"
+            "rich-text#text_percent--off",
+            "image#second__row-like"
         ]
     },
-//     "flex-layout.col#first__slider--container": {
-//         "children": [
-//             "flex-layout.row#slider__first-row"
-//         ]
-//     },
-//     "flex-layout.row#slider__first-row": {
-//         "children": [
-//             "image#first__image"
-//         ]
-//     },
-//     "image#first__image": {
-//         "props": {
-//             "src": "/arquivos/pc.png"
-//         }
-//     },
-//     "flex-layout.row#slider__second-row": {
-//         "children": [
-//             "flex-layout.col#third__row-text",
-//             "flex-layout.col#third__row-image"
-//         ],
-//         "props": {
-//             "preserveLayoutOnMobile": true,
-//             "preseveLayoutOnDesktop":true
-//         }
-//     },
-//     "flex-layout.col#third__row-text": {
-//         "children": [
-//             "rich-text#third__row-title"
-//         ]
+    "rich-text#text_percent--off": {
+        "title": "product percent off",
+        "props": {
+            "text": "20% OFF",
+            "blockClass": "este__esel__off4"
+        }
+    },
+    "image#second__row-like": {
+        "title": "like to product",
+        "props": {
+            "src": "/arquivos/Like.png",
+            "blockClass": "este__esel__like5"
+        }
+    },
 
-//     },
-//     "rich-text#third__row-title":{
-//         "props": {
-//             "text": "Descripción del producto en hasta tres líneas de texto explicativo"
-//         }
-//     },
-    "flex-layout.col#third__row-image": {
-        "children": [
-            "image#second__image-product"
-        ]
-    },
-   "image#second__image-product": {
+    "product-summary-name": {
         "props": {
-            "src": "/arquivos/pc.png"
+            "blockClass": [
+                "custom_text__slider2"
+            ]
         }
     },
-//     "flex-layout.row#slider__third-row": {
-//         "children": [
-//             "rich-text#slider__third-row-button"
-//         ]
-//     },
-    "rich-text#slider__third-row-button": {
+
+    "product-summary-buy-button": {
         "props": {
-            "text": "Comprar",
-            "blockClass":"slider__third-row-button"
+            "blockClass": [
+                "custom_button__slider3"
+            ]
         }
-    }       
+    }
 }

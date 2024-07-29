@@ -5,3 +5,19 @@
 .link--slider_third-row--button{
     background-color: blue;
 }
+.paragraph--title__slider--global {
+    font-family: Lexend, sans-serif;
+    font-weight: 500 !important;
+    font-size: 16px;
+    line-height: 16.8px;
+    color: #1D2734;
+    width: 165px;
+    height: 17px;
+    text-align: left;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    margin-left: 72px;
+    top: 630px;
+    /*left: 72px;*/
+    /*position: absolute; /*Nuevo*/
+}

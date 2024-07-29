@@ -6,7 +6,7 @@
             "rich-text#text__second-slider",
             "flex-layout.row#global__second--slider",
             "rich-text#text__second-slider",
-            "flex-layout.row#global__third--slider"
+            "flex-layout.row#global__product--list"
   
 
         ]

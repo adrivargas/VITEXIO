@@ -1,0 +1,12 @@
+.sliderTrack--slider-card{
+    display:flex;
+    grid-gap:15px;
+}
+.slider__third-row--button{
+    background-color: blue;
+    
+}
+.link--slider__third-row--button{
+    background-color: blue;
+    text-align: center;
+}
