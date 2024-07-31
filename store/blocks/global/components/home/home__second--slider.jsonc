@@ -117,6 +117,7 @@
         "props": {
             "text": "[Ver precio](https:)",
             "blockClass": "slider__third-row--button"
+            
         }
     }
 }

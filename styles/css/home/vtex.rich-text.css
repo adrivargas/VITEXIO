@@ -1,10 +1,41 @@
 .link--slider_third-row--button::after {
     content: url("/arquivos/arrow-button.svg");
 }
-
-.link--slider_third-row--button{
-    background-color: blue;
+.link--slider__third-row--button{
+    color: white;
+    text-decoration: none;
 }
-.logoImage_vtex-render-runtime-8-x-lazyload_lazyloaded{
-    content: url("/arquivos/cerveza.png");
+.container--slider__third-row--button{
+    display: flex;
+    justify-content: center;
+    background-color: #1d2734;
+    border-radius: 16px;
+    width: 40% !important;
+    height: 40px;
+    padding: 10px;
+}
+.link--menu__header__one{
+    color: #1d2734;
+    width: 144px;
+    height: 15px;
+}
+.link--menu__header__two{
+    color: #1d2734;
+    width: 144px;
+    height: 15px;
+}
+.link--menu__header__three{
+    color: #1d2734;
+    width: 144px;
+    height: 15px;
+}
+.link--menu__header__four{
+    color: #1d2734;
+    width: 144px;
+    height: 15px;
+}
+.link--menu__header__five{
+    color: #1d2734;
+    width: 144px;
+    height: 15px;
 }

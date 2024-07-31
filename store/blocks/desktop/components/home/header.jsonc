@@ -16,17 +16,9 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      /*"flex-layout.col#Contain__section--destkop",*/
       "search-bar#Search__bar--destkop",
       "flex-layout.row#Contain__section--destkop",
       "flex-layout.row#Contain__categorys--destkop2",
-      /*"rich-text#header__information--bar--one",
-      "rich-text#header__information--bar--two",
-      "rich-text#header__information--bar--three",
-      "rich-text#header__information--bar--four",
-      "rich-text#header__information--bar--five",*/
-      /*"search-bar#Search__bar--destkop",*/
-      /*"locale-switcher",*/
       "login",
       "minicart.v2"
     ]
@@ -106,6 +98,7 @@
       ]
     },
     "children": [
+      "flex-layout.col#colicon__category__food"
 
     ]
   },
@@ -113,15 +106,14 @@
     "title": "Contain icon bar food",
     "props": {
       "blockClass": [
-        "container__iconbar__food1"
+        "container__iconbar__food"
       ]
     },
     "children": [
-
+      "rich-text#icon_food"
     ]
-  },
-  "rich-text#icon__bar__food": {
-    
+  },"rich-text#icon_food": {
+
 
   }
 }

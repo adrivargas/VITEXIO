@@ -4,9 +4,17 @@
 }
 .slider__third-row--button{
     background-color: blue;
+    margin-bottom:50px !important;
     
 }
 .link--slider__third-row--button{
     background-color: blue;
     text-align: center;
+}
+.imageElement--hero-desktop-img{
+    width: 100%;
+    background-color: aqua;
+}
+.link--slider__third-row--button{
+    margin-bottom: 50px;
 }

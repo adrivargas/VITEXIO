@@ -9,6 +9,10 @@
   /* background-color: aqua;
 } */ 
 
+.stretchChildrenWidth{
+    display: flex;
+    justify-content: center !important;
+}
 .flexRowContent--row__container__allslider1 {
     background-color: aqua;
     display: flex;
