@@ -12,9 +12,10 @@
         "list-context.image-list#desktopmain-hero": {
             "props": {
                   "height": 422,
+                  "width": 100,
                 "images": [
                     {
-                        "image": "/arquivos/hero-desktop.png",
+                        "image": "/arquivos/mainDesktop.png",
                         "description": "Main hero image",
                         "link": {"url": "#"}
                     }

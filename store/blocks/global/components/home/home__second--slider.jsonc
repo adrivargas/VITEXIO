@@ -54,7 +54,7 @@
 
     "image#first__row-image": {
       "props": {
-        "src": "/arquivos/slider-image.png"
+        "src": "/arquivos/slider-photo.png"
         
       }
     },
