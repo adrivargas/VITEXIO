@@ -8,13 +8,18 @@
     
 }
 .link--slider__third-row--button{
-    background-color: blue;
+    background-color: rgb(255, 0, 251);
     text-align: center;
 }
 .imageElement--hero-desktop-img{
     width: 100%;
-    background-color: aqua;
 }
 .link--slider__third-row--button{
     margin-bottom: 50px;
+}
+ 
+.paginationDotsContainer--slider-card{
+    margin-top: 50px;
+    margin-bottom: -20px;
+    color: antiquewhite;
 }

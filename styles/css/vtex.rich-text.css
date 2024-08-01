@@ -3,9 +3,17 @@
 }
 
 .link--slider_third-row--button{
-    background-color: blue;
+    background-color: rgb(255, 0, 179);
 }
 .paragraph--text-amazing{
     margin-top:30px !important;
     margin-bottom: 60px !important;
+}
+.container--este__esel__off4{
+    background-color: #0c2340;
+    color: white;
+    border-radius: 5px;
+    width: 80px !important;
+    padding: 5px;
+    text-align: center;
 }

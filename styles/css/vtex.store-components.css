@@ -4,3 +4,19 @@
 .autoCompleteOuterContainer{
     border-radius: 16px;
 }
+.imageElement--este__esel__like5{
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+.sellingPriceContainer{
+    color:#0c2340;
+    font-weight:bold;
+}
+.sellingPrice{
+    font-weight: bold;
+}
+.discountInsideContainer{
+    display: none;
+}

@@ -1,11 +1,11 @@
 .paginationDot--isActive{
-    background-color: green;
+    background-color: #0c2340;
 }
 .flexCol--col__one--text {
     background-color: brown;
 }
 .slider__third-row--button{
-    background-color: blue;
+    background-color: rgb(0, 255, 166);
 }
 .slideChildrenContainer--hero-desktop-img{
     width: 100%;

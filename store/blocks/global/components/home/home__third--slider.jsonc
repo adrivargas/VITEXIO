@@ -85,7 +85,7 @@
     "image#second__row-like": {
         "title": "like to product",
         "props": {
-            "src": "/arquivos/Like.png",
+            "src": "/arquivos/favorite_border.png",
             "blockClass": "este__esel__like5"
         }
     },
@@ -105,4 +105,6 @@
             ]
         }
     }
+
+   
 }
