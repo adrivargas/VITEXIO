@@ -2,23 +2,39 @@
     "flex-layout.row#mobile_home-section": {
         "title": "mobile row with text",
         "children": [
-            "rich-text#mobile__section--1"
+            "list-context.image-list#mobilemain-hero"
         ],
         "props": {
-            "marginTop": 10,
-            "border": ["top", "bottom"],
-            "borderWidth": 1,
-            "borderColor": "danger"
-        }
+              "blockClass": "hero-mobile"
+            }
     },
 
-    "rich-text#mobile__section--1":{
-        "title": "Text favorites at desktop",
+    "list-context.image-list#mobilemain-hero": {
         "props": {
-            "text": "Favoritos en Mobile",
-            "font": "t-heading-2",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+              "height": 422,
+              "width": 100,
+            "images": [
+                {
+                    "image":"/arquivos/Hero Mobile.png",
+                    "description": "Main hero image",
+                    "link": {"url": "#"}
+                }
+            ]
+        },
+
+        "children": [
+            "slider-layout#mobilemain-hero-slider"
+        ]
+    },
+
+    "slider-layout#mobilemain-hero-slider": {
+        "props": {
+          "blockClass": "hero-phone-img",
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            }
         }
     }
 }

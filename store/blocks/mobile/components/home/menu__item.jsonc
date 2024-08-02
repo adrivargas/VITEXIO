@@ -1,0 +1,362 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "title": "Menu desktop",
+    "children": [
+      "slider-layout#menu-slider"
+    ]
+  },
+  "slider-layout#menu-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "arrowSize": 30,
+      "showPaginationDots": "mobileOnly",
+      "usePagination": true
+    },
+    "children": [
+      "slider-layout#food",
+      "slider-layout#Fitness",
+      "slider-layout#en_el_Artico",
+      "slider-layout#Pool__day",
+      "slider-layout#Hoteles",
+      "slider-layout#Casas",
+      "slider-layout#Naturales",
+      "slider-layout#Closet",
+      "slider-layout#Playas",
+      "slider-layout#Alpinismo",
+      "slider-layout#Delivery",
+      "slider-layout#Cervezas"
+    ]
+  },
+  "slider-layout#food": {
+    "children": [
+      "menu-item#food"
+    ]
+  },
+  "slider-layout#Fitness": {
+    "children": [
+      "menu-item#Fitness"
+    ]
+  },
+  "slider-layout#en_el_Artico": {
+    "children": [
+      "menu-item#en_el_Artico"
+    ]
+  },
+  "slider-layout#Pool__day": {
+    "children": [
+      "menu-item#Pool__day"
+    ]
+  },
+  "slider-layout#Hoteles": {
+    "children": [
+      "menu-item#Hoteles"
+    ]
+  },
+  "slider-layout#Casas": {
+    "children": [
+      "menu-item#Casas"
+    ]
+  },
+  "slider-layout#Naturales": {
+    "children": [
+      "menu-item#Naturales"
+    ]
+  },
+  "slider-layout#Closet": {
+    "children": [
+      "menu-item#Closet"
+    ]
+  },
+  "slider-layout#Playas": {
+    "children": [
+      "menu-item#Playas"
+    ]
+  },
+  "slider-layout#Alpinismo": {
+    "children": [
+      "menu-item#Alpinismo"
+    ]
+  },
+  "slider-layout#Delivery": {
+    "children": [
+      "menu-item#Delivery"
+    ]
+  },
+  "slider-layout#Cervezas": {
+    "children": [
+      "menu-item#Cervezas"
+    ]
+  },
+  "menu-item#food": {
+    "props": {
+      "id": "menu-item-food",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "food",
+        "text": "Food"
+      },
+      "iconProps": {
+        "id": "inf-fast-food",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Fitness": {
+    "props": {
+      "id": "menu-item-Fitness",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Fitness",
+        "text": "Fitness"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#en_el_Artico": {
+    "props": {
+      "id": "menu-item-en_el_Artico",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "en_el_Artico",
+        "text": "En en el Artico"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Pool__day": {
+    "title": "Menu item desktop",
+    "props": {
+      "id": "menu-item-Pool__day",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Pool__day",
+        "text": "Pool Day"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Hoteles": {
+    "props": {
+      "id": "menu-item-Hoteles",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Hoteles",
+        "text": "Hoteles"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Casas": {
+    "props": {
+      "id": "menu-Casas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Casas",
+        "text": "Casas"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Naturales": {
+    "title": "Menu item desktop",
+    "props": {
+      "id": "menu-Naturales",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Naturales",
+        "text": "Naturales"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Closet": {
+    "props": {
+      "id": "menu-Closet",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Closet",
+        "text": "Closet"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Playas": {
+    "props": {
+      "id": "menu-Playas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Playas",
+        "text": "Playas"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Alpinismo": {
+    "props": {
+      "id": "menu-Alpinismo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Alpinismo",
+        "text": "Alpinismo"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Delivery": {
+    "props": {
+      "id": "menu-Delivery",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Delivery",
+        "text": "Delivery"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#Cervezas": {
+    "props": {
+      "id": "menu-Cervezas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cervezas",
+        "text": "Cervezas"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  }
+}
