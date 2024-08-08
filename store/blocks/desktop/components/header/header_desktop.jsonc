@@ -1,0 +1,108 @@
+{
+  "header-row#header__menu--desktop": {
+    "title": "Header menu desktop",
+    "props": {
+      "blockClass": "header__menu--desktop",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#header__first--section",
+      "vtex.menu@2.x:menu#header__pages--desktop",
+      "flex-layout.row#header__second--section"
+    ]
+  },
+
+  "flex-layout.row#header__first--section": {
+    "title": "First section logo and search bar",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "header__first--section"
+    },
+    "children": [
+      "flex-layout.col#drawer__header--desktop",
+      "flex-layout.col#logo__header--desktop",
+      "flex-layout.col#searchbar__header--desktop"
+    ]
+  },
+
+  "flex-layout.col#drawer__header--desktop": {
+    "title": "Container drawer desktop",
+    "props": {
+      "blockClass": "drawer__header--desktop"
+    },
+    "children": ["drawer"]
+  },
+
+  "flex-layout.col#logo__header--desktop": {
+    "title": "Container logo desktop",
+    "props": {
+      "blockClass": "logo__header--desktop"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/icon_Black.png",
+      "width": "32px",
+      "blockClass": ["logo__img--custom"]
+    }
+  },
+
+  "flex-layout.col#searchbar__header--desktop": {
+    "title": "Container Search Bar",
+    "props": {
+      "blockClass": "searchbar__header--destkop"
+    },
+    "children": ["search-bar#search__bar--desktop"]
+  },
+  "search-bar#search__bar--desktop": {
+    "props": {
+      "placeholder": "Search products...",
+      "blockClass": "search__bar--desktop"
+    }
+  },
+
+  "flex-layout.row#header__second--section": {
+    "title": "Second section login and minicart",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "header__second--section"
+    },
+    "children": ["minicart.v2", "login#login__desktop"]
+  },
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon"
+    }
+  },
+  "icon-cart#minicart-icon": {
+    "title": "icon minicart in desktop view",
+    "props": {
+      "width": 20,
+      "height": 20,
+      "size": 20,
+      "viewBox": "0 0 20 20"
+    }
+  },
+  "login#login__desktop": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Login",
+      "blockClass": "login__desktop"
+    }
+  }
+}

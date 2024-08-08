@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#one__title--slider": {
+      "title": "Row container title one to slider",
+      "children": ["rich-text#title__section-one--slider"],
+      "props": {
+        "blockClass": "container__title--slider"
+      }
+    },
+    "rich-text#title__section-one--slider": {
+      "title": "Title to global slider",
+      "props": {
+        "text": "An amazing product.",
+        "font": "t-heading-10",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "blockClass": "title__slider--global"
+      }
+    },
+  
+    "flex-layout.row#two__title--slider": {
+      "title": "Row container title two to slider",
+      "children": ["rich-text#title__section-two--slider"]
+    },
+    "rich-text#title__section-two--slider": {
+      "title": "Title section two slider",
+      "props": {
+        "text": "An amazing product.",
+        "font": "t-heading-10",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "blockClass": "title__slider--global"
+      }
+    },
+  
+    "flex-layout.row#three__title--slider": {
+      "title": "Row container title three to slider",
+      "children": ["rich-text#title__section-three--slider"]
+    },
+    "rich-text#title__section-three--slider": {
+      "title": "Title to global slider",
+      "props": {
+        "text": "An amazing product.",
+        "font": "t-heading-10",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "blockClass": "title__slider--global"
+      }
+    }
+  }

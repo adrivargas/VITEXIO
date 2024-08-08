@@ -1,7 +1,9 @@
 {
-    "header-layout.mobile": {
-      "children": [
-        "sticky-layout#mobile"
-      ]
-    }
+  "header-layout.mobile": {
+    "children": [
+      /*"sticky-layout#mobile"*/
+      "header-row#header__menu--mobile",
+      "header-row#global__header--menu-icons"
+    ]
   }
+}

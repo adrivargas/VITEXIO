@@ -1,13 +1,11 @@
 {
     "responsive-layout.mobile#home__section": {
-        "title": "Home section desktop",
+        "title": "Home section one Mobile",
         "children": [
-            // "flex-layout.row#mobile_home-section",
-            
-            "flex-layout.row#global__second--slider"
-           
-            
+            "flex-layout.row#mobile_home-section",
+            // "flex-layout.row#one__title--slider",
+            "flex-layout.row#global_home--slider"
+            // "flex-layout.row#global__second--slider"
         ]
-
     }
 }

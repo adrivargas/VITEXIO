@@ -1,8 +1,0 @@
-{
-    "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop",
-      "vtex.menu@2.x:menu#websites"
-    ]
-  }
-}
