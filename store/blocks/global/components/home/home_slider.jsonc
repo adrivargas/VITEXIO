@@ -1,126 +1,126 @@
 {
-    "flex-layout.row#global_home--slider": {
-      "title": "Global home slider component",
-      "children": [
-        "slider-layout#global__slider--home"
-      ],
-      "props": {
-        "blockClass": "global_home--slider"
-      }
-    },
+//     "flex-layout.row#global_home--slider": {
+//       "title": "Global home slider component",
+//       "children": [
+//         "slider-layout#global__slider--home"
+//       ],
+//       "props": {
+//         "blockClass": "global_home--slider"
+//       }
+//     },
   
-    "slider-layout#global__slider--home": {
-      "title": "Global slider home",
-      "props": {
-        "fullWidth": false,
-        "itemsPerPage": {
-          "desktop": 4,
-          "tablet": 3,
-          "phone": 2
-        },
-        "infinite": true,
-        "showNavigationArrows": "always",
-        "showPaginationDots": "always",
-        "blockClass": "global__slider--home"
-      },
-      "children": [
-        "flex-layout.col#global__infocard--slider",
-        "flex-layout.col#global__infocard--slider",
-        "flex-layout.col#global__infocard--slider",
-        "flex-layout.col#global__infocard--slider",
-        "flex-layout.col#global__infocard--slider",
-        "flex-layout.col#global__infocard--slider",
-        "flex-layout.col#global__infocard--slider",
-        "flex-layout.col#global__infocard--slider"
-      ]
-    },
+//     "slider-layout#global__slider--home": {
+//       "title": "Global slider home",
+//       "props": {
+//         "fullWidth": false,
+//         "itemsPerPage": {
+//           "desktop": 4,
+//           "tablet": 3,
+//           "phone": 2
+//         },
+//         "infinite": true,
+//         "showNavigationArrows": "always",
+//         "showPaginationDots": "always",
+//         "blockClass": "global__slider--home"
+//       },
+//       "children": [
+//         "flex-layout.col#global__infocard--slider",
+//         "flex-layout.col#global__infocard--slider",
+//         "flex-layout.col#global__infocard--slider",
+//         "flex-layout.col#global__infocard--slider",
+//         "flex-layout.col#global__infocard--slider",
+//         "flex-layout.col#global__infocard--slider",
+//         "flex-layout.col#global__infocard--slider",
+//         "flex-layout.col#global__infocard--slider"
+//       ]
+//     },
   
-    "flex-layout.col#global__infocard--slider": {
-      "title": "Container global infocard slider",
-      "children": [
-        "flex-layout.row#fisrt__row-infocard--container",
-        "flex-layout.row#second__row-infocard--container",
-        "flex-layout.row#third__row-infocard--container"
-      ],
-      "props": {
-        "blockClass": "global__infocard--slider"
-      }
-    },
+//     "flex-layout.col#global__infocard--slider": {
+//       "title": "Container global infocard slider",
+//       "children": [
+//         "flex-layout.row#fisrt__row-infocard--container",
+//         "flex-layout.row#second__row-infocard--container",
+//         "flex-layout.row#third__row-infocard--container"
+//       ],
+//       "props": {
+//         "blockClass": "global__infocard--slider"
+//       }
+//     },
   
-    "flex-layout.row#fisrt__row-infocard--container": {
-      "title": "First row container image of infocard",
-      "children": [
-        "image#first__row--image"
-      ],
-      "props": {
-        "blockClass": "fisrt__row-infocard--container"
-      }
-    },
-    "image#first__row--image": {
-      "title": "Fisrt row product image",
-      "props": {
-        "src": "/arquivos/img-sliderone.png",
-        "blockClass": "first__row--image"
-      }
-    },
+//     "flex-layout.row#fisrt__row-infocard--container": {
+//       "title": "First row container image of infocard",
+//       "children": [
+//         "image#first__row--image"
+//       ],
+//       "props": {
+//         "blockClass": "fisrt__row-infocard--container"
+//       }
+//     },
+//     "image#first__row--image": {
+//       "title": "Fisrt row product image",
+//       "props": {
+//         "src": "/arquivos/img-sliderone.png",
+//         "blockClass": "first__row--image"
+//       }
+//     },
   
-    "flex-layout.row#second__row-infocard--container": {
-      "title": "Container text of products & icon bestseller",
-      "children": [
-        "flex-layout.col#second__row-infocard--text",
-        "flex-layout.col#second__row--bestseller"
-      ],
-      "props": {
-        /*"width": "100%",*/
-        "preserveLayoutOnMobile": true,
-        "blockClass": "second__row-infocard--container"
-      }
-    },
-    "flex-layout.col#second__row-infocard--text": {
-      "title": "Container title & text of product",
-      "children": [
-        "rich-text#second__row-title--infocard"
-      ],
-      "props": {
-        "width": "80%",
-        "blockClass": "second__row-infocard--text"
-      }
-    },
-    "rich-text#second__row-title--infocard": {
-      "title": "Richtext description to product",
-      "props": {
-          "text": "# Heading\n Builder platform is made by, buildership platform is made by...",
-          "blockClass": "second__row-title--infocard"
-      }
-    },
-    "flex-layout.col#second__row--bestseller": {
-      "title": "Container img ecommer bestseller",
-      "children": [
-          "image#second__row-best-seller"
-      ],
-      "props": {
-        "width": "20%",
-        "blockClass": "second__row--bestseller"
-    }
-    },
-    "image#second__row-best-seller": {
-      "props": {
-      "src": "/arquivos/bestseller.png",
-      "blockClass": "icon__to__product9"
-      }
-    },
+//     "flex-layout.row#second__row-infocard--container": {
+//       "title": "Container text of products & icon bestseller",
+//       "children": [
+//         "flex-layout.col#second__row-infocard--text",
+//         "flex-layout.col#second__row--bestseller"
+//       ],
+//       "props": {
+//         /*"width": "100%",*/
+//         "preserveLayoutOnMobile": true,
+//         "blockClass": "second__row-infocard--container"
+//       }
+//     },
+//     "flex-layout.col#second__row-infocard--text": {
+//       "title": "Container title & text of product",
+//       "children": [
+//         "rich-text#second__row-title--infocard"
+//       ],
+//       "props": {
+//         "width": "80%",
+//         "blockClass": "second__row-infocard--text"
+//       }
+//     },
+//     "rich-text#second__row-title--infocard": {
+//       "title": "Richtext description to product",
+//       "props": {
+//           "text": "# Heading\n Builder platform is made by, buildership platform is made by...",
+//           "blockClass": "second__row-title--infocard"
+//       }
+//     },
+//     "flex-layout.col#second__row--bestseller": {
+//       "title": "Container img ecommer bestseller",
+//       "children": [
+//           "image#second__row-best-seller"
+//       ],
+//       "props": {
+//         "width": "20%",
+//         "blockClass": "second__row--bestseller"
+//     }
+//     },
+//     "image#second__row-best-seller": {
+//       "props": {
+//       "src": "/arquivos/bestseller.png",
+//       "blockClass": "icon__to__product9"
+//       }
+//     },
   
-    "flex-layout.row#third__row-infocard--container": {
-      "title": "Container button to infocard",
-      "children": [
-          "rich-text#third__row--button"
-      ]
-    },
-    "rich-text#third__row--button": {
-      "title": "Button price to product",
-      "props": {
-          "text": "[Ver precio](https:)",
-          "blockClass": "third__row--button"
-      }
-    }
-  }
+//     "flex-layout.row#third__row-infocard--container": {
+//       "title": "Container button to infocard",
+//       "children": [
+//           "rich-text#third__row--button"
+//       ]
+//     },
+//     "rich-text#third__row--button": {
+//       "title": "Button price to product",
+//       "props": {
+//           "text": "[Ver precio](https:)",
+//           "blockClass": "third__row--button"
+//       }
+//     }
+}

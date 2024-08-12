@@ -2,8 +2,8 @@
     "responsive-layout.tablet#home__section": {
         "title": "Home section tablet",
         "children": [
-            "flex-layout.row#tablet__home-section",
-            "flex-layout.row#global__product--list"
+            "flex-layout.row#tablet__home-section"
+            // "flex-layout.row#global__product--list"
         ]
 
     }

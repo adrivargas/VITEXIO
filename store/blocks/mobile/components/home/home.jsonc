@@ -1,40 +1,40 @@
 {
-    "flex-layout.row#mobile_home-section": {
-        "title": "mobile row with text",
-        "children": [
-            "list-context.image-list#mobilemain-hero"
-        ],
-        "props": {
-              "blockClass": "hero-mobile"
-            }
-    },
+    // "flex-layout.row#mobile_home-section": {
+    //     "title": "mobile row with text",
+    //     "children": [
+    //         "list-context.image-list#mobilemain-hero"
+    //     ],
+    //     "props": {
+    //           "blockClass": "hero-mobile"
+    //         }
+    // },
 
-    "list-context.image-list#mobilemain-hero": {
-        "props": {
-              "height": 422,
-              "width": 100,
-            "images": [
-                {
-                    "image":"/arquivos/Hero Mobile.png",
-                    "description": "Main hero image",
-                    "link": {"url": "#"}
-                }
-            ]
-        },
+    // "list-context.image-list#mobilemain-hero": {
+    //     "props": {
+    //           "height": 422,
+    //           "width": 100,
+    //         "images": [
+    //             {
+    //                 "image":"/arquivos/Hero Mobile.png",
+    //                 "description": "Main hero image",
+    //                 "link": {"url": "#"}
+    //             }
+    //         ]
+    //     },
 
-        "children": [
-            "slider-layout#mobilemain-hero-slider"
-        ]
-    },
+    //     "children": [
+    //         "slider-layout#mobilemain-hero-slider"
+    //     ]
+    // },
 
-    "slider-layout#mobilemain-hero-slider": {
-        "props": {
-          "blockClass": "hero-phone-img",
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 3,
-                "phone": 1
-            }
-        }
-    }
+    // "slider-layout#mobilemain-hero-slider": {
+    //     "props": {
+    //       "blockClass": "hero-phone-img",
+    //         "itemsPerPage": {
+    //             "desktop": 5,
+    //             "tablet": 3,
+    //             "phone": 1
+    //         }
+    //     }
+    // }
 }

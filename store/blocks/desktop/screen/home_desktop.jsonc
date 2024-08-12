@@ -1,13 +1,16 @@
 {
     "responsive-layout.desktop#home__section--1": {
-        "title": "Home section sliders Destkop",
+        "title": "home section one desktop",
         "children": [
-            "flex-layout.row#desktop__main-slider",
-            "flex-layout.row#one__title--slider",
-            "flex-layout.row#global_home--slider",
-            "flex-layout.row#two__title--slider",
-            "flex-layout.row#global__product--list",
-            "flex-layout.row#three__title--slider"
+            "flex-layout.row#desktop_home-section",
+            "flex-layout.row#text-sliders",
+            "flex-layout.row#global__second--slider",
+            "flex-layout.row#text-sliders",
+            "flex-layout.row#product-list",
+            "flex-layout.row#text-sliders",
+            "flex-layout.row#global__second--slider",
+            "flex-layout.row#text-sliders",
+            "flex-layout.row#product-list"
         ]
     }
 }

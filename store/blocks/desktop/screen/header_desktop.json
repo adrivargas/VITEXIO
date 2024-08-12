@@ -1,10 +1,3 @@
 {
-  "header-layout.desktop": {
-    "title": "Header home destkop contain menu and icons menu",
-    "children": [
-      "header-row#header__menu--desktop",
-      "header-row#global__header--menu-icons"
-     
-    ]
-  }
+
 }

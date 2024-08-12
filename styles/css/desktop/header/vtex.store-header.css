@@ -1,0 +1,51 @@
+/*----------------------------- "Header ------------------------------------------------*/
+.headerRowContainer--header__menu--desktop {
+    /*background-color: aqua;*/
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    height         : 56px;
+    padding        : 8px 48px 8px 48px;
+    /*gap          : 48px;*/
+}
+
+/*----------------------------- Header destkop section icons ---------------------------------------*/
+.headerStickyRow--global__header--menu-icons {
+    overflow: hidden;
+}
+
+/* Nuevo prueba para ajuste*/
+.headerRowContainer--global__header--menu-icons {
+    /*background-color: #71ff5e;*/
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: left;
+    height         : 56px;
+    padding        : 8px 48px 8px 48px;
+}
+
+/*----------------------------- MediaQueires header section icons ---------------------------------------*/
+@media (max-width: 767px) {
+    .headerRowContainer--global__header--menu-icons {
+        /*background-color: #71ff5e;*/
+        width          : 100%;
+        display        : flex;
+        align-items    : center;
+        justify-content: left;
+        height         : 56px;
+        padding        : 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .headerRowContainer--global__header--menu-icons {
+        /*background-color: #71ff5e;*/
+        width          : 100%;
+        display        : flex;
+        align-items    : center;
+        justify-content: left;
+        height         : 56px;
+        padding        : 0px;
+    }
+}

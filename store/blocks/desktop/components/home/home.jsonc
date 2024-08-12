@@ -1,6 +1,6 @@
 {
-    "flex-layout.row#home-section": {
-            "title": "phone row with text",
+    "flex-layout.row#desktop_home-section": {
+            "title": "desktop row with text",
             "children": [
                 "list-context.image-list#desktopmain-hero"
             ],
@@ -10,9 +10,9 @@
         },
     
         "list-context.image-list#desktopmain-hero": {
+          "title": "desktop list image",
             "props": {
                   "height": 422,
-                  "width": 100,
                 "images": [
                     {
                         "image": "/arquivos/mainDesktop.png",
@@ -28,6 +28,7 @@
         },
     
         "slider-layout#desktopmain-hero-slider": {
+          "title": "desktop slider hero",
             "props": {
               "blockClass": "hero-desktop-img",
                 "itemsPerPage": {
@@ -38,4 +39,3 @@
             }
         }
     }
-  

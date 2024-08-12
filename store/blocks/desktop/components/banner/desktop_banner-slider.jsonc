@@ -1,49 +1,49 @@
 {
-  "flex-layout.row#desktop__main-slider": {
-    "title": "Banner desktop",
-    "children": ["flex-layout.col#banner__main-slider"],
-    "props": {
-      "blockClass": "desktop__main-slider"
-    }
-  },
-  "flex-layout.col#banner__main-slider": {
-    "title": "Banner desktop home",
-    "children": ["list-context.image-list#banner__container-images"],
-    "props": {
-      "blockClass": "banner__main-slider"
-    }
-  },
-  "list-context.image-list#banner__container-images": {
-    "title": "Container banner list images",
-    "children": ["slider-layout#slider__banner--images"],
-    "props": {
-      "height": 422,
-      "width": "100%",
-      "blockClass": "fixed-top",
-      "images": [
-        {
-          "image": "/arquivos/banner-desktop.png",
-          "description": "main image of the clock",
-          "width": "100%",
-          "link": {
-            "props": {
-              "label": "",
-              "href": "#",
-              "blockClass": "benner-desktop"
-            }
-          }
-        }
-      ]
-    }
-  },
-  "slider-layout#slider__banner--images": {
-    "title": "Banner slider home destkop",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 3,
-        "phone": 1
-      }
-    }
-  }
+//   "flex-layout.row#desktop__main-slider": {
+//     "title": "Banner desktop",
+//     "children": ["flex-layout.col#banner__main-slider"],
+//     "props": {
+//       "blockClass": "desktop__main-slider"
+//     }
+//   },
+//   "flex-layout.col#banner__main-slider": {
+//     "title": "Banner desktop home",
+//     "children": ["list-context.image-list#banner__container-images"],
+//     "props": {
+//       "blockClass": "banner__main-slider"
+//     }
+//   },
+//   "list-context.image-list#banner__container-images": {
+//     "title": "Container banner list images",
+//     "children": ["slider-layout#slider__banner--images"],
+//     "props": {
+//       "height": 422,
+//       "width": "100%",
+//       "blockClass": "fixed-top",
+//       "images": [
+//         {
+//           "image": "/arquivos/banner-desktop.png",
+//           "description": "main image of the clock",
+//           "width": "100%",
+//           "link": {
+//             "props": {
+//               "label": "",
+//               "href": "#",
+//               "blockClass": "benner-desktop"
+//             }
+//           }
+//         }
+//       ]
+//     }
+//   },
+//   "slider-layout#slider__banner--images": {
+//     "title": "Banner slider home destkop",
+//     "props": {
+//       "itemsPerPage": {
+//         "desktop": 1,
+//         "tablet": 3,
+//         "phone": 1
+//       }
+//     }
+//   }
 }

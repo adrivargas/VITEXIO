@@ -1,99 +1,99 @@
 {
-  "header-row#header__menu--mobile":{
-    "title": "Header menu phone and tablet",
-    "props": {
-      "blockClass": "header__menu--mobile",
-        "fullWidth": true
-    },
-    "children": [
-      "flex-layout.row#header__first--section--mobile"
-    ]
-  },
+  // "header-row#header__menu--mobile":{
+  //   "title": "Header menu phone and tablet",
+  //   "props": {
+  //     "blockClass": "header__menu--mobile",
+  //       "fullWidth": true
+  //   },
+  //   "children": [
+  //     "flex-layout.row#header__first--section--mobile"
+  //   ]
+  // },
 
-  "flex-layout.row#header__first--section--mobile": {
-    "title": "Container menu logo icon search and login",
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "topMenuIcons": true,
-      "preventVerticalStretch": true,
-      "preventHorizontalStretch": false,
-      "fullWidth": true,
-      "blockClass": "header__first--section--mobile"
-    },
-    "children": [
-      "drawer",
-      "flex-layout.col#logo__header--mobile",
-      "flex-layout.col#mobile_spacer",
-      /*"flex-layout.col#mobile_spacer",*/
-      "overlay-trigger#header__overlay--mobile",
-      "minicart.v2#minicart_mobile",
-      "login#header_mobile"
-    ]
-  },
+  // "flex-layout.row#header__first--section--mobile": {
+  //   "title": "Container menu logo icon search and login",
+  //   "props": {
+  //     "horizontalAlign": "center",
+  //     "verticalAlign": "center",
+  //     "topMenuIcons": true,
+  //     "preventVerticalStretch": true,
+  //     "preventHorizontalStretch": false,
+  //     "fullWidth": true,
+  //     "blockClass": "header__first--section--mobile"
+  //   },
+  //   "children": [
+  //     "drawer",
+  //     "flex-layout.col#logo__header--mobile",
+  //     "flex-layout.col#mobile_spacer",
+  //     /*"flex-layout.col#mobile_spacer",*/
+  //     // "overlay-trigger#header__overlay--mobile",
+  //     "minicart.v2#minicart_mobile",
+  //     "login#header_mobile"
+  //   ]
+  // },
   
-  "drawer": {
-    "props": {
-      "verticalAlign": "middle",
-      "blockClass": "drawer__menu--phone"
-    }
-  },
+  // "drawer": {
+  //   "props": {
+  //     "verticalAlign": "middle",
+  //     "blockClass": "drawer__menu--phone"
+  //   }
+  // },
 
-  "flex-layout.col#logo__header--mobile": {
-    "title": "Container logo mobile",
-    "props": {
-      "blockClass": "logo__header--mobile"
-    },
-    "children": [
-      "logo#logo__mobile--custom"
-    ]
-  },
-  "logo#logo__mobile--custom": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/icon_Black.png",
-      /*"width": "32px",*/
-      "blockClass": [
-        "logo__mobile--custom"
-      ]
-    }
-  },
+  // "flex-layout.col#logo__header--mobile": {
+  //   "title": "Container logo mobile",
+  //   "props": {
+  //     "blockClass": "logo__header--mobile"
+  //   },
+  //   "children": [
+  //     "logo#logo__mobile--custom"
+  //   ]
+  // },
+  // "logo#logo__mobile--custom": {
+  //   "props": {
+  //     "title": "Logo",
+  //     "href": "/",
+  //     "url": "assets/img/icon_Black.png",
+  //     /*"width": "32px",*/
+  //     "blockClass": [
+  //       "logo__mobile--custom"
+  //     ]
+  //   }
+  // },
 
-  "flex-layout.col#mobile_spacer": {
-    "title": "spacer",
-    "props": {
-      "blockClass": "mobile_spacer",
-      "flexGrow": 1
-    }
-  },
+  // "flex-layout.col#mobile_spacer": {
+  //   "title": "spacer",
+  //   "props": {
+  //     "blockClass": "mobile_spacer",
+  //     "flexGrow": 1
+  //   }
+  // },
 
-  "minicart.v2#minicart_mobile": {
-    "props": {
-      "MinicartIcon": "icon-cart#minicart_icon--mobile"
-    }
-  },
-  "icon-cart#minicart_icon--mobile": {
-    "props": {
-      "id": "minicart",
-      "width": 20,
-      "height": 20,
-      "size": 20,
-      "viewBox": "0 0 20 20",
-      "overflow": "visible",
-      "blockclass": "minicart_icon--mobile"
-    }
-  },
+  // "minicart.v2#minicart_mobile": {
+  //   "props": {
+  //     "MinicartIcon": "icon-cart#minicart_icon--mobile"
+  //   }
+  // },
+  // "icon-cart#minicart_icon--mobile": {
+  //   "props": {
+  //     "id": "minicart",
+  //     "width": 20,
+  //     "height": 20,
+  //     "size": 20,
+  //     "viewBox": "0 0 20 20",
+  //     "overflow": "visible",
+  //     "blockclass": "minicart_icon--mobile"
+  //   }
+  // },
 
-  "login#header_mobile": {
-  "props": {
-    "emailAndPasswordTitle": "LOG-IN",
-    "accessCodeTitle": "Acess Code LOG-IN",
-    "emailPlaceholder": "e-mail",
-    "passwordPlaceholder": "password",
-    "showPasswordVerificationIntoTooltip": true,
-    "iconLabel": "Login",
-    "blockClass": "icon-login"
-    }
-  }
+  // "login#header_mobile": {
+  // "props": {
+  //   "emailAndPasswordTitle": "LOG-IN",
+  //   "accessCodeTitle": "Acess Code LOG-IN",
+  //   "emailPlaceholder": "e-mail",
+  //   "passwordPlaceholder": "password",
+  //   "showPasswordVerificationIntoTooltip": true,
+  //   "iconLabel": "Login",
+  //   "blockClass": "icon-login"
+  //   }
+  // }
 }

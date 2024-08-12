@@ -1,29 +1,50 @@
 {
     "flex-layout.row#phone_home-section": {
+        "props": {
+            "blockClass": "hero--phone"
+        },
         "title": "phone row with text",
         "children": [
-            "list-context.image-list#phone__main-banner"
+            "list-context.image-list#phonemain-hero"
         ]
     },
-
-    "list-context.image-list#phone__main-banner": {
+    "flex-layout.row#phone__home--container": {
+        "props": {
+            "blockClass": "phone__home--container"
+        },
+        "children": [  
+            "flex-layout.col#phone__home--slider"
+        ]
+    },
+    "flex-layout.col#phone__home--slider": {
+        "props": {
+            "blockClass": "phone__home--slider"
+        },
+        "children": [
+            "flex-layout.row#global__second--slider"
+        ]
+    },
+    "list-context.image-list#phonemain-hero": {
         "props": {
             "images": [
                 {
-                    "image": "/arquivos/phone-banner.png",
-                    "description": "Main banner image",
-                    "link": {"url": "#"}
+                    "maxHeight": 480,
+                    "image": "/arquivos/hero-mobile.png",
+
+                    "description": "Main hero image",
+                    "link": {
+                        "url": "#"
+                    }
                 }
             ]
         },
-
         "children": [
-            "slider-layout#phone__main-banner-slider"
+            "slider-layout#phonemain-hero-slider"
         ]
     },
-
-    "slider-layout#phone__main-banner-slider": {
+    "slider-layout#phonemain-hero-slider": {
         "props": {
+            "blockClass": "img-hero-phone",
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 3,

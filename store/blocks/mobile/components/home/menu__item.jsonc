@@ -1,41 +1,41 @@
 {
-  "overlay-trigger#header__overlay--mobile": {
-      "children": [
-          "icon#header__search--mobile",
-          "overlay-layout#header__overlayout"
-      ],
-      "props": {
-          "blockClass": "header__overlay--mobile"
-      }
-  },
+//   "overlay-trigger#header__overlay--mobile": {
+//       "children": [
+//           "icon#header__search--mobile",
+//           "overlay-layout#header__overlayout"
+//       ],
+//       "props": {
+//           "blockClass": "header__overlay--mobile"
+//       }
+//   },
 
-  "icon#header__search--mobile": {
-      "title": "icon searh header mobile",
-      "props": {
-          "id": "search",
-          "width": 20,
-          "height": 20,
-          "size": 20,
-          "viewBox": "0 0 20 20",
-          "overflow": "visible",
-          "activeClassName": "vtex-store-components-3-x-searchIcon"
-      }
-  },
+//   "icon#header__search--mobile": {
+//       "title": "icon searh header mobile",
+//       "props": {
+//           "id": "search",
+//           "width": 20,
+//           "height": 20,
+//           "size": 20,
+//           "viewBox": "0 0 20 20",
+//           "overflow": "visible",
+//           "activeClassName": "vtex-store-components-3-x-searchIcon"
+//       }
+//   },
 
-  "overlay-layout#header__overlayout": {
-  "props": {
-      "placement": "left",
-          "blockClass": "header__overlayout",
-          "transitionComponent": "fadeInLeft"
-      },
-  "children": [
-      "search-bar#header__search--mobile"
-  ]
-  },
-  "search-bar#header__search--mobile": {
-      "props": {
-          "placeholder": "Buscar productos...",
-          "blockClass": "header__search--mobile"
-      }
-  }
+//   "overlay-layout#header__overlayout": {
+//   "props": {
+//       "placement": "left",
+//           "blockClass": "header__overlayout",
+//           "transitionComponent": "fadeInLeft"
+//       },
+//   "children": [
+//       "search-bar#header__search--mobile"
+//   ]
+//   },
+//   "search-bar#header__search--mobile": {
+//       "props": {
+//           "placeholder": "Buscar productos...",
+//           "blockClass": "header__search--mobile"
+//       }
+//   }
 }

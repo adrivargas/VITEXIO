@@ -1,110 +1,110 @@
-{
-    "flex-layout.row#global__product--list": {
-        "title": "Global_container_products",
-        "props": {
-            "blockClass": "row__container__summary1"
-        },
-        "children": [
-            "list-context.product-list#demo1"
-        ]
-    },
-    "product-summary.shelf#demo1": {
-        "title": "Estructur to slider products summary",
-        "children": [
-            "flex-layout.col#first__col--officon",
-            "product-summary-image",
-            "product-summary-name",
-            "product-summary-price",
-            "product-summary-buy-button"
-        ]
-    },
+ {
+//     "flex-layout.row#global__product--list": {
+//         "title": "Global_container_products",
+//         "props": {
+//             "blockClass": "row__container__summary1"
+//         },
+//         "children": [
+//             "list-context.product-list#demo1"
+//         ]
+//     },
+//     "product-summary.shelf#demo1": {
+//         "title": "Estructur to slider products summary",
+//         "children": [
+//             "flex-layout.col#first__col--officon",
+//             "product-summary-image",
+//             "product-summary-name",
+//             "product-summary-price",
+//             "product-summary-buy-button"
+//         ]
+//     },
 
-    "list-context.product-list#demo1": {
-        "title": "Container list to products",
-        "blocks": [
-            "product-summary.shelf#demo1"
-        ],
-        "children": [
-            "slider-layout#global__slider--products"
-        ],
-        "props": {
-            "blockClass": "list__container__slider2"
-        }
-    },
+//     "list-context.product-list#demo1": {
+//         "title": "Container list to products",
+//         "blocks": [
+//             "product-summary.shelf#demo1"
+//         ],
+//         "children": [
+//             "slider-layout#global__slider--products"
+//         ],
+//         "props": {
+//             "blockClass": "list__container__slider2"
+//         }
+//     },
 
-    "slider-layout#global__slider--products": {
-        "title": "Estructure slider to products summary",
-        "props": {
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 3,
-                "phone": 1
-            },
-            "blockClass": [
-                "custom_product__slider1"
-            ]
-        }
-    },
+//     "slider-layout#global__slider--products": {
+//         "title": "Estructure slider to products summary",
+//         "props": {
+//             "itemsPerPage": {
+//                 "desktop": 5,
+//                 "tablet": 3,
+//                 "phone": 1
+//             },
+//             "blockClass": [
+//                 "custom_product__slider1"
+//             ]
+//         }
+//     },
 
-    "product-summary-image": {
-        "title": "Image to product summary",
-        "props": {
-            "showBadge": true,
-            "height": 200,
-            "blockClass": [
-                "custom_image__slider2"
-            ]
-        }
+//     "product-summary-image": {
+//         "title": "Image to product summary",
+//         "props": {
+//             "showBadge": true,
+//             "height": 200,
+//             "blockClass": [
+//                 "custom_image__slider2"
+//             ]
+//         }
         
-    },
+//     },
 
-    "flex-layout.col#first__col--officon": {
-        "title": "Container percent off and like",
-        "children": [
-            "flex-layout.row#first__row--officon"
-        ]
-    },
+//     "flex-layout.col#first__col--officon": {
+//         "title": "Container percent off and like",
+//         "children": [
+//             "flex-layout.row#first__row--officon"
+//         ]
+//     },
 
-    "flex-layout.row#first__row--officon": {
-        "title": "Container row to percent off and like",
-        "props": {
-            "blockClass": "container__offlike--row3"
-        },
-        "children": [
-            "rich-text#text_percent--off",
-            "image#second__row-like"
-        ]
-    },
-    "rich-text#text_percent--off": {
-        "title": "product percent off",
-        "props": {
-            "text": "20% OFF",
-            "blockClass": "este__esel__off4"
-        }
-    },
-    "image#second__row-like": {
-        "title": "like to product",
-        "props": {
-            "src": "/arquivos/favorite_border.png",
-            "blockClass": "este__esel__like5"
-        }
-    },
+//     "flex-layout.row#first__row--officon": {
+//         "title": "Container row to percent off and like",
+//         "props": {
+//             "blockClass": "container__offlike--row3"
+//         },
+//         "children": [
+//             "rich-text#text_percent--off",
+//             "image#second__row-like"
+//         ]
+//     },
+//     "rich-text#text_percent--off": {
+//         "title": "product percent off",
+//         "props": {
+//             "text": "20% OFF",
+//             "blockClass": "este__esel__off4"
+//         }
+//     },
+//     "image#second__row-like": {
+//         "title": "like to product",
+//         "props": {
+//             "src": "/arquivos/favorite_border.png",
+//             "blockClass": "este__esel__like5"
+//         }
+//     },
 
-    "product-summary-name": {
-        "props": {
-            "blockClass": [
-                "custom_text__slider2"
-            ]
-        }
-    },
+//     "product-summary-name": {
+//         "props": {
+//             "blockClass": [
+//                 "custom_text__slider2"
+//             ]
+//         }
+//     },
 
-    "product-summary-buy-button": {
-        "props": {
-            "blockClass": [
-                "custom_button__slider3"
-            ]
-        }
-    }
+//     "product-summary-buy-button": {
+//         "props": {
+//             "blockClass": [
+//                 "custom_button__slider3"
+//             ]
+//         }
+//     }
 
    
 }
