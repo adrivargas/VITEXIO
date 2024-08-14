@@ -15,6 +15,7 @@
                   "height": 422,
                 "images": [
                     {
+                      "width": "100%",
                         "image": "/arquivos/mainDesktop.png",
                         "description": "Main hero image",
                         "link": {"url": "#"}
