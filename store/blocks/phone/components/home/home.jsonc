@@ -10,7 +10,7 @@
     },
     "flex-layout.row#phone__home--container": {
         "props": {
-            "blockClass": "phone__home--container"
+            "blockClass": "hero--phone"
         },
         "children": [  
             "flex-layout.col#phone__home--slider"
@@ -26,6 +26,7 @@
     },
     "list-context.image-list#phonemain-hero": {
         "props": {
+            "blockClass": "image-hero-phone",
             "images": [
                 {
                     "maxHeight": 480,

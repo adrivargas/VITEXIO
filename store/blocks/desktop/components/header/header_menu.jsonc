@@ -1,72 +1,46 @@
 {
-//   "vtex.menu@2.x:menu#header__pages--desktop": {
-//     "title": "Header pages desktop",
-//     "props": {
-//       "blockClass": [
-//         "header__pages--desktop"
-//     ],
-//       "items": [
-//         {
-//           "id": "menu-item-Tendencias",
-//           "type": "custom",
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/tendencias",
-//             "noFollow": false,
-//             "tagTitle": "Tendencias",
-//             "text": "Tendencias de ITGlobers"
-//           }
-//         },
-//         {
-//           "id": "menu-item-Colecciones",
-//           "type": "custom",
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/colecciones",
-//             "noFollow": false,
-//             "tagTitle": "Colecciones",
-//             "text": "Colecciones del mes"
-//           }
-//         },
-//         {
-//           "id": "menu-item-ofertas",
-//           "type": "custom",
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/ofertas-enero",
-//             "noFollow": false,
-//             "tagTitle": "Ofertas",
-//             "text": "Ofertas de Enero"
-//           }
-//         },
-//         {
-//           "id": "menu-item-cyber-monday",
-//           "type": "custom",
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/cyber-monday",
-//             "noFollow": false,
-//             "tagTitle": "Cyber Monday",
-//             "text": "Cyber Monday"
-//           }
-//         },
-//         {
-//           "id": "menu-item-never-say-never",
-//           "type": "custom",
-//           "highlight": false,
-//           "itemProps": {
-//             "type": "internal",
-//             "href": "/never-say-never",
-//             "noFollow": false,
-//             "tagTitle": "Never Say Never",
-//             "text": "Never Say Never"
-//           }
-//         }
-//       ]
-//     }
-//   }
+    "sticky-layout#desktop__sticky--layout": {
+        "children": [
+            "flex-layout.row#first__row-desktop",
+            "flex-layout.row#mega-menu",
+            "header-row#2-desktop"
+        ]
+    },
+    "flex-layout.row#first__row-desktop": {
+        "props": {
+            "blockClass": "header-row-1",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.row#global__drawer--and--logo",
+            "search-bar",
+            "flex-layout.row#header__link--container",
+            "flex-layout.row#global__minicart--and--login"
+        ]
+    },
+
+
+    "flex-layout.row#global__minicart--and--login": {
+        "children": [
+            "minicart.v2",
+            "login"
+        ],
+
+        "props": {
+            "blockClass": "minicart-login--container",
+            "colSizing": "auto"
+        }
+    },
+
+    "flex-layout.row#global__drawer--and--logo": {
+        "children": [
+            "flex-layout.col#trigger-mega-menu",
+            "logo"
+        ],
+
+        "props": {
+            "blockClass": "drawer-logo--container"
+        }
+    }
+
 }
